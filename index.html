@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国古典诗词</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>中国古典诗词欣赏</h1>
+            <p>点击分类标题，随机展示对应类别的诗词</p>
+        </header>
+        
+        <main>
+            <div class="categories">
+                <div class="category" data-type="tang">
+                    <h2>唐诗</h2>
+                    <p>唐代诗歌，中国古典诗歌的巅峰</p>
+                </div>
+                <div class="category" data-type="song">
+                    <h2>宋词</h2>
+                    <p>宋代词作，婉约豪放并存</p>
+                </div>
+                <div class="category" data-type="shijing">
+                    <h2>诗经</h2>
+                    <p>中国最早的诗歌总集</p>
+                </div>
+                <div class="category" data-type="chuci">
+                    <h2>楚辞</h2>
+                    <p>浪漫主义诗歌的源头</p>
+                </div>
+                <div class="category" data-type="yuanqu">
+                    <h2>元曲</h2>
+                    <p>元代戏曲文学的代表</p>
+                </div>
+                <div class="category" data-type="caocao">
+                    <h2>曹操诗集</h2>
+                    <p>建安文学的代表作品</p>
+                </div>
+                <div class="category" data-type="nalan">
+                    <h2>纳兰词</h2>
+                    <p>清代词人纳兰性德的作品</p>
+                </div>
+                <div class="category" data-type="shuimotangshi">
+                    <h2>水墨唐诗</h2>
+                    <p>精选唐诗佳作</p>
+                </div>
+                <div class="category" data-type="wudai">
+                    <h2>五代诗词</h2>
+                    <p>五代十国时期的诗词作品</p>
+                </div>
+                <div class="category" data-type="lunyu">
+                    <h2>论语</h2>
+                    <p>孔子及其弟子的言行录</p>
+                </div>
+
+                <div class="category" data-type="youmengying">
+                    <h2>幽梦影</h2>
+                    <p>清代张潮的随笔小品</p>
+                </div>
+                <div class="category" data-type="sishu">
+                    <h2>四书五经</h2>
+                    <p>儒家经典著作</p>
+                </div>
+                <div class="category" data-type="quansongshi">
+                    <h2>御定全唐詩</h2>
+                    <p>清代敕修的唐诗总集</p>
+                </div>
+            </div>
+            
+            <div class="poetry-display">
+                <div class="poetry-content">
+                    <button class="random-btn">再来一首</button>
+                    <h3 class="poetry-title">点击左侧分类，随机展示诗词</h3>
+                    <p class="poetry-author"></p>
+                    <div class="poetry-text"></div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>数据来源：chinese-poetry 项目</p>
+        </footer>
+    </div>
+    
+    <script src="simplified.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
